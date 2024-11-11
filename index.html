@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Burger</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./imgs/favicon-2.jpg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="container-navbar">
+        <div class="navbar-logo">
+          <a href="index.html"><img src="./imgs/meu.jpg" /></a>
+        </div>
+        <div class="navbar">
+          <ul>
+            <li>
+              <a href="#home" class="scroll-link" data-target="#home">Home</a>
+            </li>
+            <li>
+              <a href="#about" class="scroll-link" data-target="#about"
+                >About</a
+              >
+            </li>
+            <li>
+              <a href="#menu" class="scroll-link" data-target="#menu">Menu</a>
+            </li>
+            <li>
+              <a href="#reviews" class="scroll-link" data-target="#review"
+                >Review</a
+              >
+            </li>
+            <li>
+              <a href="#blog" class="scroll-link" data-target="#blog">Blog</a>
+            </li>
+            <li>
+              <a href="#contact" class="scroll-link" data-target="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="navbar-icons">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-burger"></i>
+        </div>
+      </div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="row"></div>
+      <div class="col-md-6">
+        <div class="content">
+          <h1>"Every Bite a Joy!"</h1>
+          <p>
+            The meeting point for burger lovers: Meu Burger. With each burger
+            carefully crafted from fresh, high-quality ingredients, we leave an
+            unforgettable taste on your palate. At Meu Burger, it's not just a
+            meal—it's an experience. We’re here to make the best for you!
+          </p>
+          <button class="btn text-white">Order Now</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="home-img">
+          <img src="./imgs/homeimg.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container mt-5 mb-5">
+        <hr />
+        <div
+          class="row row-cols row-cols-lg-2 align-items-center justify-content-center text-white"
+        >
+          <div class="col ani-left">
+            <img src="./imgs/about-us.jpg" />
+          </div>
+          <div class="col ani-right">
+            <h2 class="mt-5 mb-5"><span>ABOUT </span>US</h2>
+            <p>
+              At Meu Burger, we aim to make a difference in the world of
+              burgers. We set out to create an unforgettable experience for each
+              customer by combining flavor and quality. Every burger we serve is
+              made with fresh, carefully selected ingredients. For us, the most
+              important thing is turning every bite into a happy memory. With a
+              variety of flavors, unique recipes, and top-quality ingredients,
+              we’re always working to offer you the very best. A taste
+              experience that leaves a mark on your palate is not just a burger,
+              it’s a passion. Mue Burger is more than just a meal break—it's a
+              fresh, flavorful, and fulfilling journey every time. Our mission
+              is to deliver the highest quality, excellent service, and an
+              unforgettable taste experience to every customer. We believe that
+              a burger is not just a meal, but an art. You’ll feel this in every
+              bite. Join us, and let every moment turn into a delicious
+              adventure!
+            </p>
+            <a href="#contact"
+              ><button class="btn text-white">Contact Us</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="menu">
+      <div class="container mt-5 mb-5">
+        <hr />
+        <h2 class="mt-5 mb-5">OUR <span> MENU</span></h2>
+        <div class="row row-cols row-cols-md-2 row-cols-lg-4">
+          <div class="col">
+            <div class="card ani1">
+              <img src="./imgs/gorillas-burger.jpg" />
+              <div class="layer">
+                <p>
+                  360 gr. smash burger köftesi, triple american cheddar, GF
+                  Cheddar sos, GF burger sos, kırmızı soğan, çubuk turşu.
+                </p>
+              </div>
+              <h6>Gorillas XXL Burger</h6>
+              <p>598.90 TL</p>
+              <button class="btn btn-group-sm">Add to cart</button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card ani2">
+              <img src="./imgs/cheese.jpg" />
+              <div class="layer">
+                <p>
+                  120 gr. smash burger köftesi, double american cheddar, GF
+                  burger sos, soğan, çubuk turşu.
+                </p>
+              </div>
+              <h6>Original Cheeseburger</h6>
+              <p>284.90 TL</p>
+              <button class="btn btn-group-sm">Add to cart</button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card ani3">
+              <img src="./imgs/texas.jpg" />
+              <div class="layer">
+                <p>
+                  240 gr. smash burger köftesi, 60 gr füme antrikot, triple
+                  american cheddar, GF Cheddar sos, GF burger sos, kırmızı
+                  soğan, çubuk turşu.
+                </p>
+              </div>
+              <h6>Texas Meaty Burger</h6>
+              <p>528.90 TL</p>
+              <button class="btn btn-group-sm">Add to cart</button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card ani4">
+              <img src="./imgs/badass.jpg" />
+              <div class="layer">
+                <p>
+                  120 gr. smash burger köftesi, double american cheddar, Double
+                  sayas peyniri, GF burger sos, soğan, çubuk turşu.
+                </p>
+              </div>
+              <h6>Badass Cheeseburger</h6>
+              <p>328.90 TL</p>
+              <button class="btn btn-group-sm">Add to cart</button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card ani5">
+              <img src="./imgs/elturco.jpg" />
+              <div class="layer">
+                <p>
+                  120 gr. smash burger köftesi, double american cheddar, GF
+                  burger sos, GF demi glace sos, ızgara mantar, soğan, çubuk
+                  turşu.
+                </p>
+              </div>
+              <h6>El Turco Burger</h6>
+              <p>368.90 TL</p>
+              <button class="btn btn-group-sm">Add to cart</button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card ani6">
+              <img src="./imgs/honey.jpg" />
+              <div class="layer">
+                <p>
+                  240 gr. smash burger köftesi, double american cheddar, GF
+                  Golden Honey Sos, GF burger sos, soğan, çubuk turşu, domates.
+                </p>
+              </div>
+              <h6>Honeymoon Burger</h6>
+              <p>488.90 TL</p>
+              <button class="btn btn-group-sm">Add to cart</button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card ani7">
+              <img src="./imgs/turuf.jpg" />
+              <div class="layer">
+                <p>
+                  120 gr. smash burger köftesi, 40 gr füme antrikot, double
+                  american cheddar, GF burger sos, trüflü mayonez, taze
+                  karabiber, soğan.
+                </p>
+              </div>
+              <h6>Trüflü Meaty Burger</h6>
+              <p>428.90 TL</p>
+              <button class="btn btn-group-sm">Add to cart</button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card ani8">
+              <img src="./imgs/lou.jpg" />
+              <div class="layer">
+                <p>
+                  Louisiana soslu kıtır tavuk, GF burger sos, double American
+                  cheddar, kırmızı soğan, çubuk turşu, domates.
+                </p>
+              </div>
+              <h6>Louisiana Burger</h6>
+              <p>248.90 TL</p>
+              <button class="btn btn-group-sm">Add to cart</button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card ani9">
+              <img src="./imgs/burn.jpg" />
+              <div class="layer">
+                <p>
+                  120 gr. smash burger köftesi, double american cheddar, GF
+                  burger sos, GF acı sos, köz biber karışımı, jalapeno, soğan,
+                  çubuk turşu.
+                </p>
+              </div>
+              <h6>Burningman Burger</h6>
+              <p>348.90 TL</p>
+              <button class="btn btn-group-sm">Add to cart</button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card ani10">
+              <img src="./imgs/medi.jpg" />
+              <div class="layer">
+                <p>
+                  120 gr. smash burger köftesi, double american cheddar, Pesto
+                  soslu ızgara karışık sebzeler, soğan,mantar,çubuk turşu.
+                </p>
+              </div>
+              <h6>Mediterranean Burger</h6>
+              <p>348.90 TL</p>
+              <button class="btn btn-group-sm">Add to cart</button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card ani11">
+              <img src="./imgs/fight.jpg" />
+              <div class="layer">
+                <p>
+                  120 gr. smash burger köftesi, 60 gr füme antrikot, smoked
+                  sweaty hot sos, triple american cheddar, GF Cheddar sos, GF
+                  burger sos, domates, kırmızı soğan, çubuk turşu.
+                </p>
+              </div>
+              <h6>Fight Club Burger</h6>
+              <p>448.90 TL</p>
+              <button class="btn btn-group-sm">Add to cart</button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card ani12">
+              <img src="./imgs/american.jpg" />
+              <div class="layer">
+                <p>
+                  120 gr. smash burger köftesi, double american cheddar, GF BBQ
+                  Sos, GF burger sos, kırmızı soğan, çubuk turşu, marul,
+                  domates.
+                </p>
+              </div>
+              <h6>American BBQ Burger</h6>
+              <p>304.90 TL</p>
+              <button class="btn btn-group-sm">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews bg-black" id="reviews">
+      <div class="container mt-5 mb-5">
+        <hr />
+        <h2 class="mt-5 mb-5">CUSTOMER'S <span> REVIEWS</span></h2>
+        <div class="container d-flex">
+          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+            <div class="col">
+              <p class="text-light">
+                Gerçekten mükemmel bir lezzet! Etin tazeliği ve eklenmiş özel
+                soslar harika bir uyum sağlamış. Hamburgerim tam istediğim gibi,
+                büyük ve doyurucu. Ayrıca servis çok hızlı ve personel güler
+                yüzlü. Kesinlikle tekrar geleceğim!
+              </p>
+              <b><p class="fw-bold">Ahmet Y.</p></b>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+
+            <div class="col">
+              <p class="text-light">
+                Bugün arkadaşlarımla geldik ve hepimiz çok memnun kaldık!
+                Burgervari yemekler arayanlar için ideal bir yer. Farklı
+                çeşitlerin olması ve her birinin ayrı lezzeti gerçekten çok
+                hoşuma gitti. Özellikle patatesler müthiş! Şiddetle tavsiye
+                ediyorum!
+              </p>
+              <b><p class="fw-bold">Zeynep K.</p></b>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+
+            <div class="col">
+              <p class="text-light">
+                Tavsiye ederim. Ortam sakin ve güzel. İnsanın içi açılıyor.
+                Rahatlıkla oturabilirsiniz. Kahveleri güzel ama özellikle
+                kruvasanlarını özellikle tavsiye ederim. Taze pişiyor ve meyveli
+                çikolatalı mükemmel bir tadı var. Bir tanesi iki kişiye
+                yetebilir.
+              </p>
+              <b><p class="fw-bold">Can D.</p></b>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+
+            <div class="col">
+              <p class="text-light">
+                Gerçekten fark yaratmışlar! Hem hamburger hem de tatlı
+                seçenekleri çok lezzetli. Fiyat-performans açısından da çok
+                tatmin ediciydi. Servis çok hızlı ve mekan da gayet şık. Artık
+                düzenli olarak buraya gelmeyi planlıyorum. Teşekkürler Meu
+                Burger!
+              </p>
+              <b><p class="fw-bold">Elif G.</p></b>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog" id="blog">
+      <hr />
+      <p class="blog-heading text-center">BLOG</p>
+      <h2 class="text-center mb-5">BİZDEN HABERLER</h2>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+        <div class="col">
+          <p class="blog-heading">BLOG</p>
+          <a href="#"
+            ><p class="blog-text">
+              En İyi Hamburger Nasıl Yapılır: Şeflerin Sırları
+            </p></a
+          >
+          <p class="blog-date">Kasım 11, 2024 . 0 Comments</p>
+        </div>
+
+        <div class="col">
+          <p class="blog-heading">BLOG</p>
+          <a href="#"
+            ><p class="blog-text">
+              Hamburger Dükkanımızın Lezzetli Tarihi: Bizim Hikayemiz
+            </p></a
+          >
+          <p class="blog-date">Kasım 11, 2024 . 0 Comments</p>
+        </div>
+
+        <div class="col">
+          <p class="blog-heading">BLOG</p>
+          <a href="#"
+            ><p class="blog-text">
+              Hamburger ve Sağlık: Efsaneler ve Gerçekler
+            </p></a
+          >
+          <p class="blog-date">Kasım 11, 2024 . 0 Comments</p>
+        </div>
+
+        <div class="col">
+          <p class="blog-heading">BLOG</p>
+          <a href="#"
+            ><p class="blog-text">
+              Hamburger Menüleri: Farklı Lezzetler, Farklı Düşünceler
+            </p></a
+          >
+          <p class="blog-date">Kasım 11, 2024 . 0 Comments</p>
+        </div>
+      </div>
+    </section>
+    <hr />
+
+    <section class="section">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+          <div class="col d-flex ani-top">
+            <div class="col-icon">
+              <img src="./imgs/taze.jpg" width="80px" />
+            </div>
+            <div class="col-content">
+              <p class="sec-heading">Her Zaman Taze</p>
+              <p class="sec-text">
+                Tüm hamburgerlerimizde taze ve kaliteli malzemeler kullanıyoruz.
+              </p>
+            </div>
+          </div>
+
+          <div class="col d-flex ani-bottom">
+            <div class="col-icon">
+              <img src="./imgs/et.jpg" width="80px" />
+            </div>
+            <div class="col-content">
+              <p class="sec-heading">Özel Et Karışımları</p>
+              <p class="sec-text">
+                Farklı et seçeneklerimizle damak zevkinize hitap ediyoruz.
+              </p>
+            </div>
+          </div>
+
+          <div class="col d-flex ani-top">
+            <div class="col-icon">
+              <img src="./imgs/memnuniyer.jpg" width="80px" />
+            </div>
+            <div class="col-content">
+              <p class="sec-heading">Müşteri Memnuniyeti</p>
+              <p class="sec-text">
+                Müşterilerimizi her zaman memnun etmek için çalışıyoruz!
+              </p>
+            </div>
+          </div>
+
+          <div class="col d-flex ani-bottom">
+            <div class="col-icon">
+              <img src="./imgs/zengin-menu.jpg" width="80px" />
+            </div>
+            <div class="col-content">
+              <p class="sec-heading">Zengin Menü</p>
+              <p class="sec-text">
+                Geniş menü seçeneklerimizle, her damak zevkine uygun burgerler
+                sunuyoruz.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section class="contact bg-black text-white" id="contact">
+      <div class="container">
+        <h2 class="mb-4 text-center mb-5"><span>CONTACT</span> US</h2>
+        <div class="container d-flex">
+          <div class="row row-cols-1 row-cols-lg-2">
+            <div class="col ani-left2">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7095.209570030103!2d27.14164947043025!3d38.31945260087391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1731325937444!5m2!1str!2str"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div class="col mt-3 ani-right2">
+              <h5>GET IN TOUCH</h5>
+              <input type="text" placeholder="Name" />
+              <input type="text" placeholder="Surname" />
+              <input type="text" placeholder="E-mail" />
+              <button class="btn" type="submit">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row row-cols-2 row-cols-lg-3">
+          <div class="col mt-3 mb-3">
+            <p class="foot-heading">GENEL MERKEZ</p>
+            <p>Gaziemir/İZMİR</p>
+            <p>info@meuburger.com</p>
+          </div>
+          <div class="col mt-3 mb-3">
+            <p class="foot-heading">HIZLI LİNKLER</p>
+            <a href="#">Ekibimiz</a><br />
+            <a href="#">İş Başvurusu</a><br />
+            <a href="#">Hakkımızda</a><br />
+            <a href="#">Şubemiz Olun</a><br />
+          </div>
+          <div class="col d-flex mt-3 mb-3">
+            <div class="social-icon">
+              <i class="fa-brands fa-facebook"></i>
+            </div>
+            <div class="social-icon">
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="social-icon">
+              <i class="fa-brands fa-x-twitter"></i>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="footer-text text-center align-items-center mt-3">
+          <p>Meu Burger © 2024. Her hakkı saklıdır.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      window.sr = ScrollReveal();
+      sr.reveal(".ani-left", {
+        origin: "left",
+        duration: 1000,
+        distance: "25rem",
+        delay: 300,
+      });
+      window.sr = ScrollReveal();
+      sr.reveal(".ani-right", {
+        origin: "right",
+        duration: 1000,
+        distance: "25rem",
+        delay: 600,
+      });
+      window.sr = ScrollReveal();
+      sr.reveal(".ani-top", {
+        origin: "top",
+        duration: 1000,
+        distance: "12rem",
+        delay: 1000,
+      });
+      window.sr = ScrollReveal();
+      sr.reveal(".ani-bottom", {
+        origin: "bottom",
+        duration: 1000,
+        distance: "12rem",
+        delay: 1000,
+      });
+      window.sr = ScrollReveal();
+      sr.reveal(".ani-left2", {
+        origin: "left",
+        duration: 1000,
+        distance: "25rem",
+        delay: 900,
+      });
+      window.sr = ScrollReveal();
+      sr.reveal(".ani-right2", {
+        origin: "right",
+        duration: 1000,
+        distance: "25rem",
+        delay: 600,
+      });
+    </script>
+
+    <script>
+      ScrollReveal().reveal(".ani1", { delay: 250 });
+      ScrollReveal().reveal(".ani2", { delay: 500 });
+      ScrollReveal().reveal(".ani3", { delay: 750 });
+      ScrollReveal().reveal(".ani4", { delay: 1000 });
+      ScrollReveal().reveal(".ani5", { delay: 1250 });
+      ScrollReveal().reveal(".ani6", { delay: 1500 });
+      ScrollReveal().reveal(".ani7", { delay: 1750 });
+      ScrollReveal().reveal(".ani8", { delay: 2000 });
+      ScrollReveal().reveal(".ani9", { delay: 2250 });
+      ScrollReveal().reveal(".ani10", { delay: 2500 });
+      ScrollReveal().reveal(".ani11", { delay: 2750 });
+      ScrollReveal().reveal(".ani12", { delay: 3000 });
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
