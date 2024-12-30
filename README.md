@@ -26,7 +26,4 @@ Meu Burger is a fictional burger restaurant that offers a wide variety of gourme
 
 **Google Maps Integration:** Embedded Google Maps for restaurant location.
 
-# Live Demo
-To get a better understanding of how the website works, check out the screen recording below. It showcases the responsive design, smooth animations, and interactive features of the page in action. Watch the demo to see the project's features in real-time!
-
 ![MeuBurger-GoogleChrome2024-11-1117-47-28-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/e73aafac-31b3-4fc1-b179-0ae809260659)
